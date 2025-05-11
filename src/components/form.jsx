@@ -30,12 +30,12 @@ function form() {
   return (
     <div>
         <ToastContainer position="top-center" autoClose={3000} />
-    <div className='w-screen flex '>        
-        <div className='w-1/2'>
+    <div className='w-screen sm:flex '>        
+        <div className='sm:w-1/2'>
             <img src={`${bg}`}/>
         </div>
 
-        <div className='w-1/2'>
+        <div className='sm:w-1/2'>
             <div className=' w-full h-full pl-[14%] pr-[20%] '>
                 <div className='my-[10%]'>
                     <p className='text-4xl py-[20px] text-gray-700'>Welcome! We'd Love to Know You Better 😊</p>
